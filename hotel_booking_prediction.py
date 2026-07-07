@@ -22,7 +22,8 @@ os.makedirs("Graphs", exist_ok=True)
 # Load Dataset
 # ======================================================
 
-url = "https://raw.githubusercontent.com/Anu4477/DS-projects/main/hotel_bookings.csv"
+url = "https://raw.githubusercontent.com/Anu4477/Hotel_Booking/main/hotel_bookings.csv"
+
 
 df = pd.read_csv(url)
 
